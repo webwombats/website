@@ -10,8 +10,8 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "removeComments": false,
     "preserveConstEnums": true,
     "sourceMap": true,
@@ -21,5 +21,5 @@
     "isolatedModules": true
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "styled-components.d.ts", "**/*.ts", "**/*.tsx"]
 }
