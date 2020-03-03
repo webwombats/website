@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import Button from "../components/Button";
+import team from "../team";
 
 const Hero = styled.section`
   border-bottom: 1px solid ${props => props.theme.color.accents.two};
@@ -23,6 +24,14 @@ const Eyebrow = styled.p`
   color: ${props => props.theme.color.blue};
 `;
 
+const TeamSection = styled.div`
+  padding: 0 50px;
+`;
+
+const MemberCard = styled.div`
+  padding: 10px 0;
+`;
+
 const IndexPage = () => (
   <div>
     <Hero id="hero">
@@ -35,6 +44,19 @@ const IndexPage = () => (
         <Button>Meet The Team</Button>
       </HeroWrapper>
     </Hero>
+
+    <TeamSection>
+      {team.map(member => (
+        <MemberCard key={member.id}>
+          <p>{member.fullName}</p>
+          <p>{member.title}</p>
+          <p>{member.description}</p>
+          <p>
+            Based in {member.basedIn} From {member.from}
+          </p>
+        </MemberCard>
+      ))}
+    </TeamSection>
   </div>
 );
 
