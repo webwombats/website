@@ -46,6 +46,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900&display=swap"
             rel="stylesheet"
           />
+        </Head>
+
+        <body>
+          <Main />
+          <NextScript />
 
           {/* Global Site Tag - Google Analytics */}
           {process.env.NODE_ENV === "production" && (
@@ -60,19 +65,12 @@ export default class MyDocument extends Document {
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '${GA_TRACKING_ID}', {
-                      page_path: window.location.pathname,
-                    });
+                    gtag('config', '${GA_TRACKING_ID}');
                   `
                 }}
               />
             </>
           )}
-        </Head>
-
-        <body>
-          <Main />
-          <NextScript />
         </body>
       </html>
     );

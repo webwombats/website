@@ -48,7 +48,7 @@ const MemberCard = styled.div`
 const IndexPage = () => (
   <Page title="Web Wombats - Our slogan here">
     <SocialMeta
-      image="/twitter-cards/home.jpg"
+      image="/og-cards/home.jpg"
       title="Web Wombats - Our slogan here"
       url="https://webwombats.com"
       description="Company description here"
