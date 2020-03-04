@@ -6,8 +6,9 @@ import theme from "../theme";
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
   }
-  
+
   body, html {
     padding: 0;
     margin: 0;

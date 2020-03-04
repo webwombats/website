@@ -63,7 +63,7 @@ const team = [
     title: "",
     description: "",
     photoUrl: "",
-    from: "",
+    from: "RU",
     basedIn: "CZ",
     social: {
       twitter: "",

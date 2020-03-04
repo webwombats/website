@@ -6,6 +6,7 @@ import team from "../team";
 const Hero = styled.section`
   border-bottom: 1px solid ${props => props.theme.color.accents.two};
   text-align: center;
+  padding: 50px 0;
 `;
 
 const HeroWrapper = styled.div`
@@ -17,11 +18,20 @@ const HeroWrapper = styled.div`
   padding-right: 16pt;
 `;
 
+const Logo = styled.div`
+  text-transform: uppercase;
+  letter-spacing: 0.175rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 100px;
+`;
+
 const Eyebrow = styled.p`
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 0.9rem;
   color: ${props => props.theme.color.blue};
+  margin: 0;
 `;
 
 const TeamSection = styled.div`
@@ -36,10 +46,26 @@ const IndexPage = () => (
   <div>
     <Hero id="hero">
       <HeroWrapper>
-        <h1>Web Wombats</h1>
+        <Logo>Web Wombats</Logo>
         <Eyebrow>Our mission</Eyebrow>
-        <h2>We describe our mission here</h2>
-        <h5>We tell what products we build and who for.</h5>
+        <h2
+          style={{
+            fontSize: "3.5rem",
+            fontWeight: 900,
+            margin: "10px 0",
+            lineHeight: "3.75rem"
+          }}
+        >
+          We describe our mission here. Better take 2 rows.
+        </h2>
+        <h5 style={{ fontSize: "1.5rem", fontWeight: 400 }}>
+          We're a team of skilled individuals,{" "}
+          <span style={{ fontWeight: 700 }}>
+            always striving for the best solution
+          </span>
+          .<br />
+          We think big, and make projects successful.
+        </h5>
 
         <Button>Meet The Team</Button>
       </HeroWrapper>
