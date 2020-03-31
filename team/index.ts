@@ -1,4 +1,20 @@
-const team = [
+export interface TeamType {
+  id: number;
+  fullName: string;
+  title: string;
+  description: string;
+  photoUrl: string;
+  from: string;
+  basedIn: string;
+  social: {
+    twitter?: string;
+    github?: string;
+    linkedIn?: string;
+    website?: string;
+  };
+}
+
+const team: TeamType[] = [
   {
     id: 0,
     fullName: "Yuri Yakovlev",
