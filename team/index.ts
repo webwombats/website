@@ -48,15 +48,15 @@ const team: TeamType[] = [
   {
     id: 2,
     fullName: "Alex Alexeev",
-    title: "",
-    description: "",
-    photoUrl: "",
+    title: "Full-Stack JavaScript Developer",
+    description: "Alex likes to optimize the development workflow by trying new tools but hates unnecessary over-engineering at the same time. Clean stack with clean code is what he seeks to achieve in every project. He is not an introvert at all and enjoys active collaboration and creative discussions with his fellow colleagues.",
+    photoUrl: "https://previews.dropbox.com/p/thumb/AAyXmJfLkPZbbOjKJN321HmoflfDNf2eoPHQibGsQ5SOOjo4jTDHDS3ZPTTxwWEP7urfxqbxs6xT9EDb741u66nmG92vEHm33xZlG7wKdcJnqbMce037cY20sivZKJ3lgRao3HEUUy3TqnDNH5ONCa42Azf18KyQTEuO9QF4H1IGHw46ARsKzaX5fk2EjOQ6DpHNyfmjtFd6LIHYXNUgCHj32NRaLh5azX1bq_F1UgSTA08x6tP7xMLSpdfdSTe3uT_8FSp0UexHX_cRpi4FZmfx6ebPPIgHtIsv8dEkJVkr2TrvwicdKcu5RW1WUqz0pzmNpHCZS6SvpxV1giCIGWDp/p.jpeg",
     from: "BY",
     basedIn: "CZ",
     social: {
-      twitter: "",
-      github: "",
-      website: ""
+      twitter: "alexedev",
+      github: "alexe-dev",
+      website: "https://www.linkedin.com/in/alex-alexeev-ma-62550a1b/"
     }
   },
   {
