@@ -6,6 +6,7 @@ import BohemiaInteractiveLogo from "@components/Logos/bohemiaInteractive";
 import CnGroupLogo from "@components/Logos/cnGroup";
 import LooopLogo from "@components/Logos/looop";
 import OakslabLogo from "@components/Logos/oakslab";
+import PathableLogo from "@components/Logos/pathable";
 
 export interface Wombat {
   id: number;
@@ -155,13 +156,13 @@ export const workPlaces: WorkPlace[] = [
     name: "OAK'S LAB",
     websiteUrl: "https://www.oakslab.com",
     logo: <OakslabLogo />
+  },
+  {
+    id: 6,
+    name: "Pathable",
+    websiteUrl: "https://pathable.com/",
+    logo: <PathableLogo />
   }
-  // {
-  //   id: 6,
-  //   name: "Kiwi.com",
-  //   websiteUrl: "https://kiwi.com",
-  //   logo: <KiwiLogo className="h-64 w-64 mr-4 fill-current" />
-  // },
   // {
   //   id: 7,
   //   name: "Kiwi.com",

@@ -11,7 +11,8 @@ const WorkPlace: FC<{ workPlace: any }> = ({ workPlace }) => (
 
 const WorkExperience = () => (
   <section className="border-b border-gray-900 py-24">
-    <Title>Lucky Guys We've Worked With</Title>
+    {/* <Title>Lucky Guys We've Worked With</Title> */}
+    <Title>Our Work Experience</Title>
 
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 items-center">
