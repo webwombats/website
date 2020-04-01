@@ -1,5 +1,4 @@
-// @ts-ignore
-
+import React from "react";
 import KiwiLogo from "@components/Logos/kiwi";
 import BunteLogo from "@components/Logos/bunte";
 import BohemiaInteractiveLogo from "@components/Logos/bohemiaInteractive";
@@ -23,7 +22,6 @@ export interface Wombat {
     linkedIn?: string;
     website?: string;
   };
-  workedWith?: any;
 }
 
 export interface WorkPlace {
@@ -49,8 +47,7 @@ export const wombats: Wombat[] = [
       github: "yakovlevyuri",
       linkedIn: "",
       website: "https://mynameisyuri.com"
-    },
-    workedWith: []
+    }
   },
   {
     id: 1,

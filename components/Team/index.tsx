@@ -4,19 +4,7 @@ import Link from "next/link";
 import { wombats, Wombat } from "@data";
 import Title from "@components/title";
 
-interface Props {
-  data: Wombat[];
-}
-const WombatProfile: FC<Wombat> = ({
-  name,
-  fullName,
-  title,
-  description,
-  from,
-  basedIn,
-  photoUrl,
-  social
-}) => (
+const WombatProfile: FC<Wombat> = ({ name, fullName, photoUrl, social }) => (
   <div className="">
     <div className="">
       <img

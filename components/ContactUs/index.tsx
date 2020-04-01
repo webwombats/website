@@ -1,4 +1,6 @@
-const ContactUs = () => (
+import { FC } from "react";
+
+const ContactUs: FC = () => (
   <>
     <div className="container mx-auto px-4 py-24">
       <section className="pb-20 relative block">
@@ -37,7 +39,7 @@ const ContactUs = () => (
         <div className="flex flex-wrap mt-12 justify-center">
           <div className="w-full lg:w-3/12 px-4 text-center">
             <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-medal text-xl"></i>
+              <i className="fas fa-medal text-xl" />
             </div>
             <h6 className="text-xl mt-5 font-semibold text-white">
               Lorem ipsum
@@ -49,7 +51,7 @@ const ContactUs = () => (
           </div>
           <div className="w-full lg:w-3/12 px-4 text-center">
             <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-poll text-xl"></i>
+              <i className="fas fa-poll text-xl" />
             </div>
             <h5 className="text-xl mt-5 font-semibold text-white">
               Lorem ipsum
@@ -62,7 +64,7 @@ const ContactUs = () => (
           </div>
           <div className="w-full lg:w-3/12 px-4 text-center">
             <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-lightbulb text-xl"></i>
+              <i className="fas fa-lightbulb text-xl" />
             </div>
             <h5 className="text-xl mt-5 font-semibold text-white">
               Lorem ipsum

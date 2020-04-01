@@ -1,3 +1,5 @@
+import { NextPage } from "next";
+
 import SocialMeta from "@components/social-meta";
 import PageContainer from "@components/page-container";
 import Nav from "@components/nav";
@@ -8,7 +10,7 @@ import Team from "@components/Team";
 import ContactUs from "@components/ContactUs";
 import Footer from "@components/Layout/Footer";
 
-const IndexPage = () => (
+const IndexPage: NextPage = () => (
   <PageContainer title="Web Wombats - Our slogan here">
     <SocialMeta
       image="/og-cards/home.jpg"
