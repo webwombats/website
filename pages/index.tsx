@@ -10,12 +10,12 @@ import ContactUs from "@components/ContactUs";
 import Footer from "@components/Layout/Footer";
 
 const IndexPage: NextPage = () => (
-  <PageContainer title="Web Wombats - Our slogan here">
+  <PageContainer title="Web Wombats - We do the Full Stack">
     <SocialMeta
       image="/og-cards/home.jpg"
-      title="Web Wombats - Our slogan here"
+      title="Web Wombats - We do the Full Stack"
       url="https://webwombats.com"
-      description="Company description here"
+      description="A well-coordinated and experienced team of Full Stack JavaScript programmers"
     />
 
     <div className="leading-normal tracking-normal bg-black text-white">
