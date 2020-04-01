@@ -2,7 +2,7 @@ import { FC } from "react";
 import Head from "next/head";
 import Router from "next/router";
 
-import { trackPageview } from "../lib/analytics";
+import { trackPageview } from "@lib/analytics";
 
 interface Props {
   title: string;
