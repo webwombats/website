@@ -1,4 +1,4 @@
-import { GetStaticProps, NextPage } from "next";
+import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 
 import Profile from "@components/Profile";
 import PageContainer from "@components/page-container";
@@ -26,7 +26,7 @@ export const getStaticProps: GetStaticProps = async context => {
   };
 };
 
-export const getStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = wombats.map(wombat => ({
     params: {
       name: wombat.name

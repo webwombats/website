@@ -4,6 +4,7 @@ export const GA_TRACKING_ID = "UA-134274102-3";
 export const trackPageview = (url: string) => {
   try {
     window.gtag("config", GA_TRACKING_ID, {
+      // eslint-disable-next-line @typescript-eslint/camelcase
       page_location: url
     });
   } catch (err) {
@@ -25,7 +26,9 @@ export const trackEvent = ({
 }) => {
   try {
     window.gtag("event", action, {
+      // eslint-disable-next-line @typescript-eslint/camelcase
       event_category: category,
+      // eslint-disable-next-line @typescript-eslint/camelcase
       event_label: label,
       value
     });

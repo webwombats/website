@@ -1,9 +1,9 @@
 import { FC } from "react";
 
-import { workPlaces } from "@data";
+import { WorkPlace, workPlaces } from "@data";
 import Title from "@components/title";
 
-const WorkPlace: FC<{ workPlace: any }> = ({ workPlace }) => (
+const WorkPlace: FC<{ workPlace: WorkPlace }> = ({ workPlace }) => (
   <div className="w-full p-4 md:w-auto flex justify-center">
     {workPlace.logo}
   </div>

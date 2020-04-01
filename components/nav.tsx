@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-const links = [
+const _links = [
   { href: "https://github.com/zeit/next.js", label: "GitHub" },
   { href: "https://nextjs.org/docs", label: "Docs" }
 ];
