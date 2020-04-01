@@ -124,37 +124,37 @@ export const workPlaces: WorkPlace[] = [
     id: 0,
     name: "Kiwi.com",
     websiteUrl: "https://kiwi.com",
-    logo: <KiwiLogo className="h-64 w-64 mr-4 fill-current" />
+    logo: <KiwiLogo />
   },
   {
     id: 1,
     name: "Bohemia Interactive",
     websiteUrl: "https://www.bohemia.net",
-    logo: <BohemiaInteractiveLogo className="h-64 w-64 mr-4 fill-current" />
+    logo: <BohemiaInteractiveLogo />
   },
   {
     id: 2,
     name: "Bunte.de",
     websiteUrl: "https://www.bunte.de",
-    logo: <BunteLogo className="h-64 w-64 mr-4 fill-current" />
+    logo: <BunteLogo />
   },
   {
     id: 3,
     name: "CN Group",
     websiteUrl: "https://www.cngroup.dk",
-    logo: <CnGroupLogo className="h-64 w-64 mr-4 fill-current" />
+    logo: <CnGroupLogo />
   },
   {
     id: 4,
     name: "Looop",
     websiteUrl: "https://www.looop.co",
-    logo: <LooopLogo className="h-64 w-64 mr-4 fill-current" />
+    logo: <LooopLogo />
   },
   {
     id: 5,
     name: "OAK'S LAB",
     websiteUrl: "https://www.oakslab.com",
-    logo: <OakslabLogo className="h-64 w-64 mr-4 fill-current" />
+    logo: <OakslabLogo />
   }
   // {
   //   id: 6,

@@ -3,9 +3,10 @@ import { FC } from "react";
 const OakslabLogo: FC<{ className?: string }> = ({ className = "" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="300"
-    height="112.142"
     viewBox="0 0 143 16"
+    width="100%"
+    height="100%"
+    className={className}
   >
     <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
       <g fill="#FFF" fillRule="nonzero" transform="translate(0 -14)">

@@ -5,7 +5,7 @@ import { GA_TRACKING_ID } from "@lib/analytics";
 export default class MyDocument extends Document {
   render() {
     return (
-      <html>
+      <html lang="en">
         <Head>
           <link
             href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900&display=swap"

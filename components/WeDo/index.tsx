@@ -71,14 +71,14 @@ const WeDo = () => (
         <i className="fas fa-drafting-compass text-xl"></i>
       </div>
       <h3 className="text-3xl mb-2 font-semibold leading-normal">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        We adore JavaScript
       </h3>
-      <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+      <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-300">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris.
       </p>
-      <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+      <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-300">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore.
       </p>

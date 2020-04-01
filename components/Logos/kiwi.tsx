@@ -3,9 +3,9 @@ import { FC } from "react";
 const KiwiLogo: FC<{ className?: string }> = ({ className = "" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="278"
-    height="138"
     viewBox="0 0 278 138"
+    width="100%"
+    height="100%"
     className={className}
   >
     <g fill="#FFF" fillRule="evenodd">

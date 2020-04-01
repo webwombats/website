@@ -16,7 +16,7 @@ const WorkExperience = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 items-center">
         {workPlaces.map(workPlace => (
-          <WorkPlace workPlace={workPlace} />
+          <WorkPlace workPlace={workPlace} key={workPlace.id} />
         ))}
       </div>
     </div>

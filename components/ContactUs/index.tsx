@@ -1,7 +1,8 @@
 const ContactUs = () => (
   <>
-    <section className="pb-20 relative block">
-      {/* <div
+    <div className="container mx-auto px-4 py-24">
+      <section className="pb-20 relative block">
+        {/* <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: "80px", transform: "translateZ(0)" }}
       >
@@ -21,13 +22,12 @@ const ContactUs = () => (
         </svg>
       </div> */}
 
-      <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
         <div className="flex flex-wrap text-center justify-center">
           <div className="w-full lg:w-6/12 px-4">
             <h2 className="text-4xl font-semibold text-white">
               Let's Build Great Things Together
             </h2>
-            <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+            <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
@@ -42,7 +42,7 @@ const ContactUs = () => (
             <h6 className="text-xl mt-5 font-semibold text-white">
               Lorem ipsum
             </h6>
-            <p className="mt-2 mb-4 text-gray-500">
+            <p className="mt-2 mb-4 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna.
             </p>
@@ -54,7 +54,7 @@ const ContactUs = () => (
             <h5 className="text-xl mt-5 font-semibold text-white">
               Lorem ipsum
             </h5>
-            <p className="mt-2 mb-4 text-gray-500">
+            <p className="mt-2 mb-4 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
@@ -67,17 +67,15 @@ const ContactUs = () => (
             <h5 className="text-xl mt-5 font-semibold text-white">
               Lorem ipsum
             </h5>
-            <p className="mt-2 mb-4 text-gray-500">
+            <p className="mt-2 mb-4 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="relative block py-24 lg:pt-0">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+      <section className="relative block">
+        <div className="flex flex-wrap justify-center ">
           <div className="w-full lg:w-6/12 px-4">
             <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-900">
               <div className="flex-auto p-5 lg:p-10">
@@ -153,8 +151,8 @@ const ContactUs = () => (
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </>
 );
 

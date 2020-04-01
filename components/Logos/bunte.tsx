@@ -3,10 +3,10 @@ import { FC } from "react";
 const BunteLogo: FC<{ className?: string }> = ({ className = "" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="308.48"
-    height="92.33"
     viewBox="0 0 308.48 92.33"
     preserveAspectRatio="xMidYMid meet"
+    width="100%"
+    height="100%"
     className={className}
   >
     <path

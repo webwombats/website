@@ -5,10 +5,11 @@ const BohemiaInteractiveLogo: FC<{ className?: string }> = ({
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="300"
-    height="112.142"
     version="1.1"
     viewBox="0 0 574.902 112.142"
+    width="100%"
+    height="112.142"
+    className={className}
   >
     <g transform="matrix(1.96078 0 0 1.96079 0 -51.184)">
       <path
