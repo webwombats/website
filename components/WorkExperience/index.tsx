@@ -3,7 +3,7 @@ import { FC } from "react";
 import { WorkPlace, workPlaces } from "@data";
 import Title from "@components/title";
 
-const WorkPlace: FC<{ workPlace: WorkPlace }> = ({ workPlace }) => (
+const WorkPlaceComponent: FC<{ workPlace: WorkPlace }> = ({ workPlace }) => (
   <div className="w-full p-4 md:w-auto flex justify-center">
     {workPlace.logo}
   </div>
@@ -17,7 +17,7 @@ const WorkExperience = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 items-center">
         {workPlaces.map(workPlace => (
-          <WorkPlace workPlace={workPlace} key={workPlace.id} />
+          <WorkPlaceComponent workPlace={workPlace} key={workPlace.id} />
         ))}
       </div>
     </div>
