@@ -2,7 +2,6 @@ import { NextPage } from "next";
 
 import SocialMeta from "@components/social-meta";
 import PageContainer from "@components/page-container";
-import Nav from "@components/nav";
 import Hero from "@components/Hero";
 import WeDo from "@components/WeDo";
 import WorkExperience from "@components/WorkExperience";
@@ -20,7 +19,6 @@ const IndexPage: NextPage = () => (
     />
 
     <div className="leading-normal tracking-normal bg-black text-white">
-      <Nav />
       <Hero />
       <WeDo />
       <WorkExperience />

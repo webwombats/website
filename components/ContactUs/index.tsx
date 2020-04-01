@@ -27,7 +27,7 @@ const ContactUs: FC = () => (
         <div className="flex flex-wrap text-center justify-center">
           <div className="w-full lg:w-6/12 px-4">
             <h2 className="text-4xl font-semibold text-white">
-              Let's Build Great Things Together
+              Let's Build Cool Things Together
             </h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,10 +81,7 @@ const ContactUs: FC = () => (
           <div className="w-full lg:w-6/12 px-4">
             <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-900">
               <div className="flex-auto p-5 lg:p-10">
-                <h4 className="text-2xl font-semibold">
-                  Want to work with us?
-                </h4>
-                <p className="leading-relaxed mt-1 mb-4 text-white text-xl">
+                <h4 className="leading-relaxed mt-1 mb-4 text-white text-2xl font-semibold">
                   Shoot us a message at{" "}
                   <a
                     href="mailto:hi@webwombats.com"
@@ -94,7 +91,7 @@ const ContactUs: FC = () => (
                   </a>{" "}
                   or complete the form below and we will get back to you as soon
                   as possible.
-                </p>
+                </h4>
 
                 <div className="relative w-full mb-3 mt-8">
                   <label

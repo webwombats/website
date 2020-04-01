@@ -70,7 +70,10 @@ const Team = () => (
           <WombatProfile {...wombat} key={wombat.id} />
         ))}
 
-        <div>Need more people, hah? Contact us and we'll figure it out!</div>
+        <div className="lg:px-16 text-center self-center">
+          Need more people in the team, hah? Contact us and we'll figure
+          something out!
+        </div>
       </div>
     </div>
   </section>

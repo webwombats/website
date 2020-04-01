@@ -2,11 +2,11 @@ import { FC } from "react";
 
 const PathableLogo: FC<{ className?: string }> = ({ className = "" }) => (
   <svg
-    className={className}
     xmlns="http://www.w3.org/2000/svg"
-    width="808"
-    height="185"
     viewBox="0 0 808 185"
+    width="100%"
+    height="100%"
+    className={className}
   >
     <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
       <g fill="#FFF">

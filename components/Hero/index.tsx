@@ -40,10 +40,15 @@ const Wave = () => (
 
 const Hero = () => (
   <>
-    <div className="pt-24 text-white gradient">
+    <div className="pt-24 gradient">
       <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p className="uppercase tracking-loose w-full">Our mission</p>
+          <div className="pb-16 mx-auto lg:mx-0">
+            <p className="uppercase tracking-widest text-4xl">WEB WOMBATS</p>
+          </div>
+
+          <p className="uppercase tracking-wider w-full">Our mission</p>
+
           <h1 className="my-4 text-5xl font-bold leading-tight">
             Main Hero Message to sell ourselfs!
           </h1>
