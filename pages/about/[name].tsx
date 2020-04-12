@@ -3,6 +3,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Profile from "@components/Profile";
 import PageContainer from "@components/page-container";
 import SocialMeta from "@components/social-meta";
+import Footer from "@components/Layout/Footer";
 
 import { wombats, Wombat } from "@data";
 
@@ -14,7 +15,12 @@ const AboutPage: NextPage<{ wombat: Wombat }> = ({ wombat }) => (
       url="https://webwombats.com"
       description={wombat.description}
     />
-    <Profile wombat={wombat} />
+
+    <div className="leading-normal tracking-normal bg-black text-white">
+      <Profile wombat={wombat} />
+
+      <Footer />
+    </div>
   </PageContainer>
 );
 

@@ -14,6 +14,10 @@ const LeftBlock: FC = () => (
       We do the Full Stack and more.
     </h3>
     <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-300">
+      We use the leading techonologies and strict quality standards to create
+      custom applications that are scalable, robust and easy to use.
+    </p>
+    <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-300">
       There is an opinion that JavaScript is a scripting language for creating
       the effects of falling snowflakes on your sites. We prove this opinion
       wrong!
@@ -38,6 +42,7 @@ const LeftBlock: FC = () => (
       <Tag />
       <Tag />
     </div>
+    Добавить ссылку на стекшейр
   </div>
 );
 

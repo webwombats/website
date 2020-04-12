@@ -6,7 +6,6 @@ import Hero from "@components/Hero";
 import WeDo from "@components/WeDo";
 import WorkExperience from "@components/WorkExperience";
 import Team from "@components/Team";
-import ContactUs from "@components/ContactUs";
 import Footer from "@components/Layout/Footer";
 
 const IndexPage: NextPage = () => (
@@ -23,7 +22,6 @@ const IndexPage: NextPage = () => (
       <WeDo />
       <WorkExperience />
       <Team />
-      <ContactUs />
 
       <Footer />
     </div>

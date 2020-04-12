@@ -2,7 +2,7 @@
 // import Footer from "components/Footer.js";
 
 import { FC } from "react";
-import { Wombat } from "../../data";
+import { Wombat } from "@data";
 
 const Profile: FC<{ wombat: Wombat }> = ({ wombat }) => {
   return (
@@ -109,6 +109,10 @@ const Profile: FC<{ wombat: Wombat }> = ({ wombat }) => {
                     </div>
                   </div>
                 </div>
+
+                {wombat.workPlaces.map((workPlace, i) => (
+                  <div key={i}>{workPlace}</div>
+                ))}
               </div>
             </div>
           </div>
