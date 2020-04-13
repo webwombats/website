@@ -1,8 +1,9 @@
 import { FC } from "react";
 import Link from "next/link";
 
-import { wombats, Wombat } from "@data";
 import Title from "@components/title";
+
+import { wombats, Wombat } from "@data";
 
 const WombatProfile: FC<Wombat> = ({
   name,
@@ -15,8 +16,7 @@ const WombatProfile: FC<Wombat> = ({
     <img
       alt={fullName}
       src={photoUrl || ""}
-      className="shadow-lg rounded-full max-w-full mx-auto"
-      style={{ maxWidth: 150 }}
+      className="shadow-lg rounded-full max-w-3xs sm:max-w-2xs mx-auto"
     />
     <div className="pt-3 text-center">
       <h5 className="text-2xl font-bold">{fullName}</h5>
@@ -44,14 +44,16 @@ const WombatProfile: FC<Wombat> = ({
 const Team = () => (
   <section className="py-10 sm:py-12 md:py-16 lg:py-20">
     <div className="container mx-auto px-4">
-      <Title>Meet us. We are the Web Wombats!</Title>
+      <Title subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit temporibus et fugiat reprehenderit incidunt quo totam odit cumque quas, dignissimos in maiores deserunt omnis enim, aperiam, explicabo vero non facilis!">
+        Meet us. We are the Web Wombats!
+      </Title>
 
-      <div className="grid grid-cols-2 col-gap-3 row-gap-6 md:grid-cols-3 md:gap-12">
+      <div className="grid grid-cols-2 col-gap-3 row-gap-12 sm:row-gap-6 md:grid-cols-3 md:gap-12">
         {wombats.map(wombat => (
           <WombatProfile {...wombat} key={wombat.id} />
         ))}
       </div>
-      <div className="lg:px-16 mt-12 sm:mt-16 text-sm sm:text-lg text-center self-center">
+      <div className="lg:px-16 mt-12 sm:mt-16 text-sm sm:text-lg text-gray-500 text-center self-center">
         Need more people in the team, hah? Let us know and we'll figure
         something out!
       </div>

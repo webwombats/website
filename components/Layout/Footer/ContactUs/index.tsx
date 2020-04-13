@@ -33,7 +33,7 @@ const ContactUs = () => {
         together!
       </h3>
       <p
-        className="underline hover:no-underline cursor-pointer text-2xl sm:text-3xl"
+        className="underline hover:no-underline cursor-pointer text-2xl sm:text-3xl font-bold"
         onClick={handleClick}
       >
         hi@webwombats.com

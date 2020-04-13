@@ -38,6 +38,10 @@ module.exports = {
       spacing: {},
       width: {
         "screen-90": "90vw"
+      },
+      maxWidth: {
+        "2xs": "9rem",
+        "3xs": "8rem"
       }
     }
   }
