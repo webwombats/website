@@ -184,65 +184,37 @@ export const wombats: Wombat[] = [
   }
 ];
 
-export const techStack = {
-  block: {
-    left: [
-      {
-        id: 0,
-        title: "We married JavaScript",
-        description:
-          "Despite the fact that we are married to JavaScript, we really love her cousin TypeScript.",
-        logoSrc:
-          "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png",
-        bgColor: "bg-pink-800"
-      },
-      {
-        id: 1,
-        title: "We tamed Reactjs",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        logoSrc:
-          "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg",
-        bgColor: "bg-purple-800"
-      },
-      {
-        id: 2,
-        title: "We DevOps with the speed of light",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        logoSrc:
-          "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png",
-        bgColor: "bg-yellow-800"
-      }
-    ],
-    right: [
-      {
-        id: 0,
-        title: "We prefer Node.js + GraphQL",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        logoSrc:
-          "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png",
-        bgColor: "bg-teal-800"
-      },
-      {
-        id: 1,
-        title: "We build React Native Mobile App",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        logoSrc:
-          "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png",
-        bgColor: "bg-red-800"
-      },
-      {
-        id: 2,
-        title: "We adore the Open Source",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        logoSrc:
-          "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png",
-        bgColor: "bg-gray-800"
-      }
-    ]
+export const techStack = [
+  {
+    id: 0,
+    title: "We married JavaScript",
+    description:
+      "Despite the fact that we are married to JavaScript, we really love her cousin TypeScript.",
+    logoSrc:
+      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+  },
+  {
+    id: 1,
+    title: "We tamed Reactjs",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    logoSrc:
+      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+  },
+  {
+    id: 2,
+    title: "We DevOps with the speed of light",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    logoSrc:
+      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+  },
+  {
+    id: 3,
+    title: "We DevOps with the speed of light",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    logoSrc:
+      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
   }
-};
+];

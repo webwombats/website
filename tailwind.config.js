@@ -37,7 +37,8 @@ module.exports = {
       colors: {},
       spacing: {},
       width: {
-        "screen-90": "90vw"
+        "screen-90": "90vw",
+        "96": "24rem"
       },
       maxWidth: {
         "2xs": "9rem",
