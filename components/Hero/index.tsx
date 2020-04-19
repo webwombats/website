@@ -1,8 +1,10 @@
 import TechStack from "./TechStack";
 
+import { wombats } from "@data";
+
 const Hero = () => (
   <>
-    <section className="py-16 md:py-20 px-6 md:px-0 min-h-screen border-b border-gray-800">
+    <section className="py-16 px-6 md:px-0 min-h-screen border-b border-gray-800">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center text-center items-center">
           <div className="w-full w-full lg:w-8/12 justify-center items-start text-center">
@@ -20,7 +22,7 @@ const Hero = () => (
               Main Hero Message to sell ourselfs!
             </h1>
             <p className="leading-normal text-base md:text-2xl mb-12 md:mb-16">
-              We're a team of 6 skilled individuals{" "}
+              We're a team of {wombats.length} skilled individuals{" "}
               <strong>building software</strong> for enterprise organizations
               and applications for startups.
             </p>
