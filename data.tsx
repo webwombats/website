@@ -190,31 +190,27 @@ export const techStack = [
     title: "We married JavaScript",
     description:
       "Despite the fact that we are married to JavaScript, we really love her cousin TypeScript.",
-    logoSrc:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+    logoSrc: "/icons/typescript.svg"
   },
   {
     id: 1,
     title: "We tamed Reactjs",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    logoSrc:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+    logoSrc: "/icons/react.svg"
   },
   {
     id: 2,
     title: "We DevOps with the speed of light",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    logoSrc:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+    logoSrc: "/icons/nodejs.svg"
   },
   {
     id: 3,
     title: "We DevOps with the speed of light",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    logoSrc:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+    logoSrc: "/icons/aws.svg"
   }
 ];
