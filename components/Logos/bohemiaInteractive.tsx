@@ -8,7 +8,7 @@ const BohemiaInteractiveLogo: FC<{ className?: string }> = ({
     version="1.1"
     viewBox="0 0 574.902 112.142"
     width="100%"
-    height="112.142"
+    height="100%"
     className={className}
   >
     <g transform="matrix(1.96078 0 0 1.96079 0 -51.184)">

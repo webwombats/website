@@ -42,7 +42,8 @@ module.exports = {
       },
       maxWidth: {
         "2xs": "9rem",
-        "3xs": "8rem"
+        "3xs": "8rem",
+        "64": "16rem"
       }
     }
   }
