@@ -1,11 +1,13 @@
 const Hero = () => (
   <>
-    <section className="py-20 px-6 md:px-0 h-screen border-b border-gray-800">
+    <section className="py-16 md:py-20 px-6 md:px-0 h-screen border-b border-gray-800">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center text-center items-center">
           <div className="w-full w-full lg:w-8/12 justify-center items-start text-center">
-            <div className="pb-16 mx-auto lg:mx-0">
-              <p className="uppercase tracking-widest text-3xl">WEB WOMBATS</p>
+            <div className="pb-12 md:pb-16 mx-auto lg:mx-0">
+              <p className="uppercase tracking-widest text-2xl md:text-3xl">
+                WEB WOMBATS
+              </p>
             </div>
 
             <p className="uppercase tracking-wider w-full text-indigo-500">
