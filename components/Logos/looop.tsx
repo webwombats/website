@@ -6,8 +6,8 @@ const LooopLogo: FC<{ className?: string }> = ({ className = "" }) => (
     xmlnsXlink="http://www.w3.org/1999/xlink"
     version="1.1"
     preserveAspectRatio="xMidYMid meet"
-    viewBox="157.07844992667597 183.65967817778355 280.5638577656317 139.34032182221645"
-    width="100%"
+    viewBox="156 178 280 132"
+    width="80%"
     height="100%"
     className={className}
   >

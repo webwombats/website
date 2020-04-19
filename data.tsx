@@ -6,6 +6,7 @@ import CnGroupLogo from "@components/Logos/cnGroup";
 import LooopLogo from "@components/Logos/looop";
 import OakslabLogo from "@components/Logos/oakslab";
 import PathableLogo from "@components/Logos/pathable";
+import DiehlLogo from "@components/Logos/diehl";
 
 export interface Wombat {
   id: number;
@@ -46,22 +47,23 @@ export const workPlaces: WorkPlace[] = [
   },
   {
     id: 2,
+    name: "Looop",
+    websiteUrl: "https://www.looop.co",
+    logo: <LooopLogo />
+  },
+  {
+    id: 3,
     name: "Bunte.de",
     websiteUrl: "https://www.bunte.de",
     logo: <BunteLogo />
   },
   {
-    id: 3,
+    id: 4,
     name: "CN Group",
     websiteUrl: "https://www.cngroup.dk",
     logo: <CnGroupLogo />
   },
-  {
-    id: 4,
-    name: "Looop",
-    websiteUrl: "https://www.looop.co",
-    logo: <LooopLogo />
-  },
+
   {
     id: 5,
     name: "OAK'S LAB",
@@ -70,16 +72,16 @@ export const workPlaces: WorkPlace[] = [
   },
   {
     id: 6,
+    name: "Diehl Controls",
+    websiteUrl: "https://www.diehl.com/controls/en/",
+    logo: <DiehlLogo />
+  },
+  {
+    id: 7,
     name: "Pathable",
     websiteUrl: "https://pathable.com/",
     logo: <PathableLogo />
   }
-  // {
-  //   id: 7,
-  //   name: "Diehl Controls",
-  //   websiteUrl: "https://www.diehl.com/controls/en/",
-  //   logo: <PathableLogo />
-  // }
 ];
 
 export const wombats: Wombat[] = [

@@ -4,7 +4,7 @@ import { WorkPlace, workPlaces } from "@data";
 import Title from "@components/title";
 
 const WorkPlaceComponent: FC<{ workPlace: WorkPlace }> = ({ workPlace }) => (
-  <div className="w-full p-4 md:w-auto flex justify-center">
+  <div className="flex justify-center p-4 md:p-8 w-1/2 sm:max-w-64">
     {workPlace.logo}
   </div>
 );
@@ -16,7 +16,7 @@ const WorkExperience = () => (
         We have collaborated with
       </Title>
 
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 items-center">
+      <div className="flex justify-center flex-wrap">
         {workPlaces.map(workPlace => (
           <WorkPlaceComponent workPlace={workPlace} key={workPlace.id} />
         ))}
