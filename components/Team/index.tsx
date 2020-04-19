@@ -19,11 +19,13 @@ const WombatProfile: FC<Wombat> = ({
       className="shadow-lg rounded-full max-w-3xs sm:max-w-2xs mx-auto"
     />
     <div className="pt-3 text-center">
-      <h5 className="text-2xl font-bold">{fullName}</h5>
-      <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+      <h5 className="text-2xl font-bold leading-tight tracking-tight">
+        {fullName}
+      </h5>
+      <p className="mt-1 text-sm md:text-base text-gray-500 font-semibold">
         {title}
       </p>
-      <div className="mt-2">
+      <div className="mt-1 text-base">
         <p>
           <a
             href={`https://github.com/${social.github}`}
@@ -43,17 +45,20 @@ const WombatProfile: FC<Wombat> = ({
 
 const Team = () => (
   <section className="py-10 sm:py-12 md:py-16 lg:py-20">
-    <div className="container mx-auto px-4">
-      <Title subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit temporibus et fugiat reprehenderit incidunt quo totam odit cumque quas, dignissimos in maiores deserunt omnis enim, aperiam, explicabo vero non facilis!">
+    <div className="container mx-auto px-6 md:px-0">
+      <Title subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem vero ea magni asperiores, officiis quis cum odio in sit dicta qui voluptatibus placeat nulla? Quae quo quasi labore in.">
         Meet us. We are the Web Wombats!
       </Title>
+      {/* <Title subtitle="We are six remote-first guys">
+        Meet us. We are the Web Wombats!
+      </Title> */}
 
       <div className="grid grid-cols-2 col-gap-3 row-gap-12 sm:row-gap-6 md:grid-cols-3 md:gap-12">
         {wombats.map(wombat => (
           <WombatProfile {...wombat} key={wombat.id} />
         ))}
       </div>
-      <div className="lg:px-16 mt-12 sm:mt-16 text-sm sm:text-lg text-gray-500 text-center self-center">
+      <div className="lg:px-16 mt-12 sm:mt-16 text-sm md:text-base text-gray-500 text-center self-center">
         Need more people in the team, hah? Let us know and we'll figure
         something out!
       </div>

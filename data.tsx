@@ -87,7 +87,7 @@ export const wombats: Wombat[] = [
     id: 0,
     name: "yuri",
     fullName: "Yuri Yakovlev",
-    title: "React, NodeJS, React Native, Soft Skills",
+    title: "React, NodeJS, CI/CD, Soft Skills",
     workPlaces: ["OAK'S LAB", "Kiwi.com", "CN Group", "Bunte.de", "Lundegaard"],
     description:
       "Yuri is a JavaScript anarchist. He doesn’t move tickets in Jira and makes mistakes in Pull Requests...on purpose just to test colleagues. Addicted to Open Source.",
@@ -104,7 +104,7 @@ export const wombats: Wombat[] = [
     id: 1,
     name: "ali",
     fullName: "Ali Zhdanov",
-    title: "React, NodeJS, GraphQL, Databases",
+    title: "React, NodeJS, Databases",
     workPlaces: ["OAK'S LAB", "Kiwi.com", "Bohemia Interactive"],
     description:
       "Loves Javascript. Believes in open source. Always experimenting with new technologies. Can solve all world problems, after a cup of good coffee. Strongly believes that there is a perfect GIF for any occasion. Moving tickets in Jira instead of Yuri.",
@@ -121,7 +121,7 @@ export const wombats: Wombat[] = [
     id: 2,
     name: "alex",
     fullName: "Alex Alexeev",
-    title: "React, NodeJS, GraphQL",
+    title: "React, NodeJS, Databases",
     workPlaces: ["Velvon", "Kiwi.com", "CN Group"],
     description:
       "Alex likes to optimize the development workflow by trying new tools but hates unnecessary over-engineering at the same time. Clean stack with clean code is what he seeks to achieve in every project. He is not an introvert at all and enjoys active collaboration and creative discussions with his fellow colleagues.",
@@ -138,7 +138,7 @@ export const wombats: Wombat[] = [
     id: 3,
     name: "boris",
     fullName: "Boris Musatov",
-    title: "Architect, React Native, NodeJS, CI/CD",
+    title: "Solution Architect, React Native, NodeJS",
     workPlaces: ["CN Group", "Bunte.de", "BSC Praha"],
     description: "",
     photoUrl: "/about/alex.jpg",

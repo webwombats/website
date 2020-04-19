@@ -23,22 +23,24 @@ const ContactUs = () => {
   }, [addToast, clipboard]);
 
   return (
-    <div className="container mx-auto px-4 py-10 sm:py-12 md:py-16 lg:py-20 grid gap-8 text-center border-t border-gray-900">
-      {/* <h3 className="text-3xl">
+    <section className="py-10 sm:py-12 md:py-16 lg:py-20 border-t border-gray-800">
+      <div className="container mx-auto px-6 md:px-0 grid gap-8 text-center">
+        {/* <h3 className="text-3xl">
         Ready to build an application with great potential for success? Now you
         know how we can help you achieve it!
       </h3> */}
-      <h3 className="text-2xl sm:text-3xl">
-        Want us to make your idea a real product? Shoot a message and let's work
-        together!
-      </h3>
-      <p
-        className="underline hover:no-underline cursor-pointer text-2xl sm:text-3xl font-bold"
-        onClick={handleClick}
-      >
-        hi@webwombats.com
-      </p>
-    </div>
+        <h3 className="text-2xl sm:text-3xl font-bold leading-tight tracking-tight">
+          Want us to make your idea a real product? Shoot a message and let's
+          work together!
+        </h3>
+        <p
+          className="underline hover:no-underline cursor-pointer text-2xl sm:text-3xl font-bold"
+          onClick={handleClick}
+        >
+          hi@webwombats.com
+        </p>
+      </div>
+    </section>
   );
 };
 
