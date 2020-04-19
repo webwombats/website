@@ -3,7 +3,7 @@ import Document, { Head, Main, NextScript } from "next/document";
 export default class MyDocument extends Document {
   render() {
     return (
-      <html lang="en">
+      <html lang="en" className="bg-black">
         <Head>
           <link
             href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900&display=swap"
