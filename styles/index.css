@@ -42,7 +42,7 @@
 }
 @media (min-width: 1280px) {
   [data-reach-dialog-content] {
-    width: 70vw;
+    width: 60vw;
     margin: 15vh auto;
   }
 }

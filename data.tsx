@@ -175,7 +175,7 @@ export const wombats: Wombat[] = [
     title: "UI/UX Engineer, CSS coding",
     workPlaces: ["SmarTech IT", "Diehl Controls"],
     description: "",
-    photoUrl: "/about/alex.jpg",
+    photoUrl: "/about/dmitriy.jpg",
     basedIn: "PL",
     social: {
       twitter: "",
