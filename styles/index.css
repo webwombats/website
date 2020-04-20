@@ -1,8 +1,6 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
-@tailwind utilities;
 
 :root {
   --reach-dialog: 1;
@@ -23,3 +21,6 @@
   margin: 15vh auto;
   outline: none;
 }
+
+/* purgecss end ignore */
+@tailwind utilities;
