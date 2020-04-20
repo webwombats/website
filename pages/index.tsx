@@ -7,13 +7,15 @@ import WorkExperience from "@components/WorkExperience";
 import Team from "@components/Team";
 import Footer from "@components/Layout/Footer";
 
+import { wombats } from "@data";
+
 const IndexPage: NextPage = () => (
   <PageContainer title="Web Wombats - We do the Full Stack">
     <SocialMeta
       image="/og-cards/home.jpg"
       title="Web Wombats - We do the Full Stack"
       url="https://webwombats.com"
-      description="A well-coordinated and experienced team of Full Stack JavaScript programmers"
+      description={`We are a team of ${wombats.length} skilled individuals building software for enterprise organizations and applications for startups.`}
     />
 
     <div className="leading-normal tracking-normal bg-black text-white">
