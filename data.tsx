@@ -110,7 +110,7 @@ export const wombats: Wombat[] = [
     workPlaces: ["OAK'S LAB", "Kiwi.com", "Bohemia Interactive"],
     description:
       "Loves Javascript. Believes in open source. Always experimenting with new technologies. Can solve all world problems, after a cup of good coffee. Strongly believes that there is a perfect GIF for any occasion. Moving tickets in Jira instead of Yuri.",
-    photoUrl: "/about/alex.jpg",
+    photoUrl: "/about/ali.jpg",
     basedIn: "CZ",
     social: {
       twitter: "alizhdanov",

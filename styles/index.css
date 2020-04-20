@@ -4,22 +4,22 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
-.gradient {
-  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
-  /* background: linear-gradient(90deg, #434343 0%, black 100%); */ /* OK */
-  /* background-image: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.9) 11.2%,
-    rgba(0, 0, 0, 1) 78.9%
-  ); */
-  background: linear-gradient(90deg, #09203f 0%, #537895 100%);
-  /* background: linear-gradient(
-    90deg,
-    #0c3483 0%,
-    #a2b6df 100%,
-    #6b8cce 100%,
-    #a2b6df 100%
-  ); */
-  /* background: linear-gradient(90deg, black 0%, #434343 100%); */
-  /* background: linear-gradient(90deg, #a8edea 0%, #fed6e3 100%); */
+:root {
+  --reach-dialog: 1;
+}
+
+[data-reach-dialog-overlay] {
+  background: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+[data-reach-dialog-content] {
+  width: 60vw;
+  margin: 15vh auto;
+  outline: none;
 }
