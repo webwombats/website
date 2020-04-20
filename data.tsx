@@ -93,7 +93,7 @@ export const wombats: Wombat[] = [
     workPlaces: ["OAK'S LAB", "Kiwi.com", "CN Group", "Bunte.de", "Lundegaard"],
     description:
       "Yuri is a JavaScript anarchist. He doesn’t move tickets in Jira and makes mistakes in Pull Requests...on purpose just to test colleagues. Addicted to Open Source.",
-    photoUrl: "/about/alex.jpg",
+    photoUrl: "/about/yuri.jpg",
     basedIn: "CZ",
     social: {
       twitter: "yakovlevyuri",

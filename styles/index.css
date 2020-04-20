@@ -17,9 +17,34 @@
 }
 
 [data-reach-dialog-content] {
-  width: 60vw;
+  width: 90vw;
   margin: 15vh auto;
   outline: none;
+}
+
+@media (min-width: 640px) {
+  [data-reach-dialog-content] {
+    width: 90vw;
+    margin: 15vh auto;
+  }
+}
+@media (min-width: 768px) {
+  [data-reach-dialog-content] {
+    width: 70vw;
+    margin: 15vh auto;
+  }
+}
+@media (min-width: 1024px) {
+  [data-reach-dialog-content] {
+    width: 60vw;
+    margin: 15vh auto;
+  }
+}
+@media (min-width: 1280px) {
+  [data-reach-dialog-content] {
+    width: 70vw;
+    margin: 15vh auto;
+  }
 }
 
 /* purgecss end ignore */
