@@ -107,8 +107,11 @@ const WombatProfile: FC<Wombat> = wombat => {
 const Team = () => (
   <section className="py-10 sm:py-12 md:py-16 lg:py-20">
     <div className="container mx-auto px-6 md:px-0">
-      <Title subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem vero ea magni asperiores, officiis quis cum odio in sit dicta qui voluptatibus placeat nulla? Quae quo quasi labore in.">
-        Meet us. We are the Web Wombats!
+      <Title
+        subtitle="Meet us"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem vero ea magni asperiores, officiis quis cum odio in sit dicta qui voluptatibus placeat nulla? Quae quo quasi labore in."
+      >
+        We are the Web Wombats!
       </Title>
 
       <div className="grid grid-cols-2 col-gap-3 row-gap-12 sm:row-gap-6 md:grid-cols-3 md:gap-12">
