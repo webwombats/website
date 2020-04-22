@@ -4,7 +4,7 @@ import { wombats } from "@data";
 
 const Hero = () => (
   <>
-    <section className="py-16 px-6 md:px-0 min-h-screen border-b border-gray-800">
+    <section className="py-16 px-6 md:px-0 min-h-screen border-b border-tundora">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center text-center items-center">
           <div className="w-full w-full lg:w-8/12 justify-center items-start text-center">

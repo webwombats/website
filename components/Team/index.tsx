@@ -39,7 +39,7 @@ const DialogContent: FC<Wombat> = ({
       </p>
     </div> */}
 
-    <div className="mt-10 py-10 border-t border-gray-800 text-center">
+    <div className="mt-10 py-10 border-t border-tundora text-center">
       <div className="flex flex-wrap justify-center">
         <div className="w-full px-4">
           <p className="mb-4 text-lg leading-relaxed text-white">
@@ -93,7 +93,7 @@ const WombatProfile: FC<Wombat> = wombat => {
       </div>
 
       <Dialog
-        className="border border-gray-800 bg-black"
+        className="border border-tundora bg-background-color"
         isOpen={showDialog}
         onDismiss={close}
         aria-label="Bio information"

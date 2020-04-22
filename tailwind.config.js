@@ -36,6 +36,7 @@ module.exports = {
     extend: {
       colors: {
         "azure-radiance": "#0076FF",
+        tundora: "#424242",
         "background-color": "#101010",
         "body-font-color": "#989898",
         "heading-font-color": "#fff",

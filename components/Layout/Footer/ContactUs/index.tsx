@@ -23,7 +23,7 @@ const ContactUs = () => {
   }, [addToast, clipboard]);
 
   return (
-    <section className="py-10 sm:py-12 md:py-16 lg:py-20 border-t border-gray-800">
+    <section className="py-10 sm:py-12 md:py-16 lg:py-20 border-t border-tundora">
       <div className="container mx-auto px-6 md:px-0 grid gap-8 text-center">
         {/* <h3 className="text-3xl">
         Ready to build an application with great potential for success? Now you
