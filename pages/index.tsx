@@ -18,7 +18,7 @@ const IndexPage: NextPage = () => (
       description={`We are a team of ${wombats.length} skilled individuals building software for enterprise organizations and applications for startups.`}
     />
 
-    <div className="leading-normal tracking-normal bg-black text-white">
+    <div className="leading-normal tracking-normal bg-background-color text-white">
       <Hero />
       <WorkExperience />
       <Team />

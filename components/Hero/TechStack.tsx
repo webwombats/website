@@ -11,7 +11,7 @@ const TechStackItem: FC<{
   <li className="w-full md:w-96 md:px-5 mb-8">
     <div className="flex">
       <div className="flex-shrink-0">
-        <div className="flex items-center justify-center h-10 w-10 md:h-12 md:w-12 rounded-lg bg-blue-600">
+        <div className="flex items-center justify-center h-10 w-10 md:h-12 md:w-12 rounded-lg bg-azure-radiance">
           <img className="h-6 w-6 md:w-auto md:h-auto" src={logoSrc} />
         </div>
       </div>
@@ -19,7 +19,7 @@ const TechStackItem: FC<{
         <h5 className="text-xl md:text-2xl font-bold leading-tight tracking-tight">
           {title}
         </h5>
-        <p className="mt-2 text-base md:text-lg text-gray-500 leading-snug">
+        <p className="mt-2 text-base md:text-lg text-body-font-color">
           {description}
         </p>
       </div>

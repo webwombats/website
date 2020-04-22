@@ -27,14 +27,14 @@ const DialogContent: FC<Wombat> = ({
       <h3 className="text-4xl font-bold leading-normal mb-2 text-white">
         {fullName}
       </h3>
-      <div className="mt-3 text-gray-500">{title}</div>
-      <div className="mt-2 text-gray-500">
+      <div className="mt-3 text-body-font-color">{title}</div>
+      <div className="mt-2 text-body-font-color">
         Worked at: {workPlaces.map(workPlace => workPlace).join(", ")}
       </div>
     </div>
     {/*
     <div className="text-center mt-20">
-      <p className="text-gray-500">
+      <p className="text-body-font-color">
         Worked at: {workPlaces.map(workPlace => workPlace).join(", ")}
       </p>
     </div> */}
@@ -67,7 +67,7 @@ const WombatProfile: FC<Wombat> = wombat => {
         <h5 className="text-2xl font-bold leading-tight tracking-tight">
           {wombat.fullName}
         </h5>
-        <p className="mt-1 text-sm md:text-base text-gray-500 font-semibold">
+        <p className="mt-1 text-sm md:text-base text-body-font-color">
           {wombat.title}
         </p>
         <div className="mt-1 text-base">
@@ -80,7 +80,7 @@ const WombatProfile: FC<Wombat> = wombat => {
             </a>
             <span className="px-3">|</span>
             {/* <Link href="/about/[name]" as={`/about/${name}`}>
-              <a className="text-gray-500 hover:text-gray-200">Bio</a>
+              <a className="text-body-font-color hover:text-gray-200">Bio</a>
             </Link> */}
             <button
               onClick={open}
@@ -116,7 +116,7 @@ const Team = () => (
           <WombatProfile {...wombat} key={wombat.id} />
         ))}
       </div>
-      <div className="lg:px-16 mt-12 sm:mt-16 text-sm md:text-base text-gray-500 text-center self-center">
+      <div className="lg:px-16 mt-12 sm:mt-16 text-sm md:text-base text-body-font-color text-center self-center">
         Need more people in the team, hah? Let us know and we'll figure
         something out!
       </div>

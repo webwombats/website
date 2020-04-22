@@ -96,7 +96,7 @@ const Profile: FC<{ wombat: Wombat }> = ({ wombat }) => {
                     {wombat.fullName}
                   </h3>
                   <div className="mb-2 text-gray-700 mt-2">
-                    <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
+                    <i className="fas fa-briefcase mr-2 text-lg text-body-font-color"></i>
                     {wombat.title}
                   </div>
                 </div>

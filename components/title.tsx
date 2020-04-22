@@ -7,7 +7,7 @@ const Title: FC<{ subtitle?: string }> = ({ children, subtitle }) => (
         {children}
       </h2>
       {subtitle && (
-        <p className="text-base md:text-lg leading-relaxed text-gray-500">
+        <p className="text-base md:text-lg leading-relaxed text-body-font-color">
           {subtitle}
         </p>
       )}

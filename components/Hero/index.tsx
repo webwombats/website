@@ -14,7 +14,7 @@ const Hero = () => (
               </p>
             </div>
 
-            <p className="uppercase tracking-wider w-full text-blue-400">
+            <p className="uppercase tracking-wider w-full text-azure-radiance">
               Our mission
             </p>
 

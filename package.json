@@ -10,7 +10,7 @@
     "precommit": "yarn lint"
   },
   "dependencies": {
-    "@reach/dialog": "^0.10.0",
+    "@reach/dialog": "^0.10.1",
     "classnames": "^2.2.6",
     "next": "^9.3.5",
     "react": "^16.13.1",
@@ -21,21 +21,21 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
     "@types/classnames": "^2.2.10",
-    "@types/node": "^13.13.1",
+    "@types/node": "^13.13.2",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
     "@types/react-toast-notifications": "^2.4.0",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "husky": "^4.2.5",
     "postcss-preset-env": "^6.7.0",
-    "prettier": "2.0.4",
-    "tailwindcss": "^1.2.0",
+    "prettier": "2.0.5",
+    "tailwindcss": "^1.3.4",
     "typescript": "^3.8.3"
   }
 }
