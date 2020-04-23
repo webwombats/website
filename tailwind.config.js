@@ -51,6 +51,9 @@ module.exports = {
         "2xs": "9rem",
         "3xs": "8rem",
         "64": "16rem"
+      },
+      inset: {
+        "4": "1rem"
       }
     }
   }

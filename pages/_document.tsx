@@ -6,12 +6,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html lang="en" className="bg-background-color">
-        <Head>
-          {/* <link
-            href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900&display=swap"
-            rel="stylesheet"
-          /> */}
-        </Head>
+        <Head />
 
         <body>
           <Main />

@@ -9,16 +9,16 @@ const Hero = () => (
         <div className="flex flex-wrap justify-center text-center items-center">
           <div className="w-full w-full lg:w-8/12 justify-center items-start text-center">
             <div className="pb-12 md:pb-16 mx-auto lg:mx-0">
-              <p className="uppercase tracking-widest text-2xl md:text-3xl">
+              <p className="uppercase tracking-widest font-bold text-3xl md:text-4xl">
                 WEB WOMBATS
               </p>
             </div>
 
-            <p className="uppercase tracking-wider w-full text-azure-radiance">
+            <h5 className="text-body-font-color uppercase text-lg mb-2 font-semibold">
               Our mission
-            </p>
+            </h5>
 
-            <h1 className="mt-4 mb-8 md:mb-10 text-3xl md:text-6xl font-bold leading-none tracking-tight">
+            <h1 className="mt-4 mb-8 md:mb-10 text-4xl md:text-6xl font-bold leading-none tracking-tight">
               Main Hero Message to sell ourselfs!
             </h1>
             <p className="leading-normal text-base md:text-2xl mb-12 md:mb-16">

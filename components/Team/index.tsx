@@ -6,14 +6,11 @@ import Title from "@components/title";
 
 import { wombats, Wombat } from "@data";
 
-const DialogContent: FC<Wombat> = ({
-  fullName,
-  title,
-  description,
-  photoUrl,
-  workPlaces
+const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
+  wombat: { fullName, title, description, photoUrl, workPlaces },
+  close
 }) => (
-  <div className="px-6 shadow-xl rounded-lg">
+  <div className="px-6 shadow-xl rounded-lg relative">
     <div className="flex justify-center">
       <img
         alt={fullName}
@@ -48,6 +45,13 @@ const DialogContent: FC<Wombat> = ({
         </div>
       </div>
     </div>
+
+    <button
+      className="absolute top-4 right-4 text-white px-6 px-2"
+      onClick={close}
+    >
+      Close
+    </button>
   </div>
 );
 
@@ -83,8 +87,8 @@ const WombatProfile: FC<Wombat> = wombat => {
               <a className="text-body-font-color hover:text-gray-200">Bio</a>
             </Link> */}
             <button
-              onClick={open}
               className="text-white underline hover:no-underline"
+              onClick={open}
             >
               Bio
             </button>
@@ -92,14 +96,15 @@ const WombatProfile: FC<Wombat> = wombat => {
         </div>
       </div>
 
-      <Dialog
-        className="border border-tundora bg-background-color"
-        isOpen={showDialog}
-        onDismiss={close}
-        aria-label="Bio information"
-      >
-        <DialogContent {...wombat} />
-      </Dialog>
+      {showDialog && (
+        <Dialog
+          className="border border-tundora bg-background-color"
+          onDismiss={close}
+          aria-label="Bio information"
+        >
+          <DialogContent wombat={wombat} close={close} />
+        </Dialog>
+      )}
     </div>
   );
 };
