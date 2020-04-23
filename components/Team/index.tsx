@@ -16,7 +16,12 @@ const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
         alt={fullName}
         src={photoUrl}
         className="shadow-xl rounded-full h-auto align-middle -m-16"
-        style={{ maxWidth: "150px", maxHeight: "150px" }}
+        style={{
+          width: "150px",
+          maxWidth: "150px",
+          height: "150px",
+          maxHeight: "150px"
+        }}
       />
     </div>
 
