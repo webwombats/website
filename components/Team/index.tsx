@@ -52,7 +52,8 @@ const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
     </div>
 
     <button
-      className="absolute top-2 right-2 md:top-4 md:right-4 px-2 py-1 md:px-6 md:py-2 text-white border-none focus:outline-none"
+      className="absolute top-2 right-2 md:top-4 md:right-4 px-2 py-1 md:px-6 md:py-2
+        text-white border-none focus:outline-none text-body-font-color"
       onClick={close}
     >
       Close
