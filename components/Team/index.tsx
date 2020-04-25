@@ -7,7 +7,15 @@ import Title from "@components/title";
 import { wombats, Wombat } from "@data";
 
 const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
-  wombat: { fullName, title, description, photoUrl, workPlaces },
+  wombat: {
+    fullName,
+    title,
+    description,
+    photoUrl,
+    workPlaces,
+    basedIn,
+    social
+  },
   close
 }) => (
   <div className="px-6 shadow-xl rounded-lg relative">
@@ -26,20 +34,22 @@ const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
     </div>
 
     <div className="text-center mt-20">
-      <h3 className="text-4xl font-bold leading-normal mb-2 text-white">
+      <h3 className="text-4xl font-bold leading-normal text-white">
         {fullName}
+
+        <img
+          decoding="async"
+          src={`/icons/${basedIn.code.toLowerCase()}.svg`}
+          alt={`Based in ${basedIn.fullName}`}
+          title={`Based in ${basedIn.fullName}`}
+          className="w-5 h-5 inline-block ml-3"
+        />
       </h3>
-      <div className="mt-3 text-body-font-color">{title}</div>
+      <div className="text-white text-lg">{title}</div>
       <div className="mt-2 text-body-font-color">
         Worked at: {workPlaces.map(workPlace => workPlace).join(", ")}
       </div>
     </div>
-    {/*
-    <div className="text-center mt-20">
-      <p className="text-body-font-color">
-        Worked at: {workPlaces.map(workPlace => workPlace).join(", ")}
-      </p>
-    </div> */}
 
     <div className="mt-10 py-10 border-t border-tundora text-center">
       <div className="flex flex-wrap justify-center">
@@ -49,11 +59,67 @@ const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
           </p>
         </div>
       </div>
+
+      <div className="mt-6">
+        <p className="text-white text-center">
+          {social.linkedIn && (
+            <span>
+              <a
+                href={`https://www.linkedin.com/in/${social.linkedIn}`}
+                className="underline hover:no-underline focus:outline-none mr-6"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                LinkedIn
+              </a>
+            </span>
+          )}
+
+          {social.github && (
+            <span>
+              <a
+                href={`https://github.com/${social.github}`}
+                className="underline hover:no-underline focus:outline-none mr-6"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                GitHub
+              </a>
+            </span>
+          )}
+
+          {social.twitter && (
+            <span>
+              <a
+                href={`https://twitter.com/${social.twitter}`}
+                className="underline hover:no-underline focus:outline-none mr-6"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                Twitter
+              </a>
+            </span>
+          )}
+
+          {social.website && (
+            <span>
+              <a
+                href={social.website}
+                className="underline hover:no-underline focus:outline-none"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                Personal Website
+              </a>
+            </span>
+          )}
+        </p>
+      </div>
     </div>
 
     <button
-      className="absolute top-2 right-2 md:top-4 md:right-4 px-2 py-1 md:px-6 md:py-2
-        text-white border-none focus:outline-none text-body-font-color"
+      className="absolute top-2 right-2 md:top-2 md:right-0 px-2 py-1 md:px-6 md:py-2
+        text-white border-none focus:outline-none text-body-font-color hover:text-white"
       onClick={close}
     >
       Close
@@ -76,30 +142,39 @@ const WombatProfile: FC<Wombat> = wombat => {
       <div className="pt-3 text-center">
         <h5 className="text-2xl font-bold leading-tight tracking-tight">
           {wombat.fullName}
+
+          <img
+            decoding="async"
+            src={`/icons/${wombat.basedIn.code.toLowerCase()}.svg`}
+            alt={`Based in ${wombat.basedIn.fullName}`}
+            title={`Based in ${wombat.basedIn.fullName}`}
+            className="w-4 h-4 inline-block ml-3"
+          />
         </h5>
         <p className="mt-1 text-sm md:text-base text-body-font-color">
           {wombat.title}
         </p>
-        <div className="mt-1 text-base">
-          <p>
-            <a
-              href={`https://github.com/${wombat.social.github}`}
-              className="underline hover:no-underline"
+
+        <button
+          className="text-white font-bold text-base tracking-wide uppercase hover:opacity-50 transition-opacity
+            duration-300 ease-in-out rounded-full cursor-pointer px-4 bg-cod-gray mt-3 border-none whitespace-no-wrap"
+          onClick={open}
+        >
+          Bio
+          {/* <div className="inline-block relative w-3 ml-2 -mr-2">
+            <svg
+              viewBox="0 0 36 36"
+              fill="currentcolor"
+              fillRule="evenodd"
+              clipRule="evenodd"
+              strokeLinejoin="round"
+              strokeMiterlimit={1.414}
+              // style="fill: currentcolor; fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 1.41421;"
             >
-              @{wombat.social.github}
-            </a>
-            <span className="px-3">|</span>
-            {/* <Link href="/about/[name]" as={`/about/${name}`}>
-              <a className="text-body-font-color hover:text-gray-200">Bio</a>
-            </Link> */}
-            <button
-              className="text-white underline hover:no-underline"
-              onClick={open}
-            >
-              Bio
-            </button>
-          </p>
-        </div>
+              <path d="M19.5 18L8.893 7.393a3 3 0 014.243-4.242L27.985 18l-4.242 4.243-10.607 10.606a3 3 0 11-4.243-4.242L19.5 18z"></path>
+            </svg>
+          </div> */}
+        </button>
       </div>
 
       {showDialog && (

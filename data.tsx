@@ -16,7 +16,10 @@ export interface Wombat {
   workPlaces: string[];
   description: string;
   photoUrl: string;
-  basedIn: string;
+  basedIn: {
+    code: string;
+    fullName: string;
+  };
   social: {
     twitter?: string;
     github: string;
@@ -94,11 +97,14 @@ export const wombats: Wombat[] = [
     description:
       "Yuri is a JavaScript anarchist. He doesn’t move tickets in Jira and makes mistakes in Pull Requests...on purpose just to test colleagues. Addicted to Open Source.",
     photoUrl: "/about/yuri.jpg",
-    basedIn: "CZ",
+    basedIn: {
+      code: "CZ",
+      fullName: "Czech Republic"
+    },
     social: {
       twitter: "yakovlevyuri",
       github: "yakovlevyuri",
-      linkedIn: "",
+      linkedIn: "yakovlevyuri",
       website: "https://mynameisyuri.com"
     }
   },
@@ -111,7 +117,10 @@ export const wombats: Wombat[] = [
     description:
       "Loves Javascript. Believes in open source. Always experimenting with new technologies. Can solve all world problems, after a cup of good coffee. Strongly believes that there is a perfect GIF for any occasion. Moving tickets in Jira instead of Yuri.",
     photoUrl: "/about/ali.jpg",
-    basedIn: "CZ",
+    basedIn: {
+      code: "CZ",
+      fullName: "Czech Republic"
+    },
     social: {
       twitter: "alizhdanov",
       github: "alizhdanov",
@@ -128,11 +137,14 @@ export const wombats: Wombat[] = [
     description:
       "Alex likes to optimize the development workflow by trying new tools but hates unnecessary over-engineering at the same time. Clean stack with clean code is what he seeks to achieve in every project. He is not an introvert at all and enjoys active collaboration and creative discussions with his fellow colleagues.",
     photoUrl: "/about/alex.jpg",
-    basedIn: "CZ",
+    basedIn: {
+      code: "CZ",
+      fullName: "Czech Republic"
+    },
     social: {
       twitter: "alexedev",
       github: "alexe-dev",
-      linkedIn: "https://www.linkedin.com/in/alex-alexeev-ma-62550a1b/",
+      linkedIn: "alex-alexeev-ma-62550a1b",
       website: ""
     }
   },
@@ -144,7 +156,10 @@ export const wombats: Wombat[] = [
     workPlaces: ["CN Group", "Bunte.de", "BSC Praha"],
     description: "",
     photoUrl: "/about/alex.jpg",
-    basedIn: "CZ",
+    basedIn: {
+      code: "CZ",
+      fullName: "Czech Republic"
+    },
     social: {
       twitter: "",
       github: "elqsar",
@@ -160,7 +175,10 @@ export const wombats: Wombat[] = [
     workPlaces: ["Looop", "Pathable", "Ourea Systems", "SmartPeople"],
     description: "",
     photoUrl: "/about/alex.jpg",
-    basedIn: "CZ",
+    basedIn: {
+      code: "CZ",
+      fullName: "Czech Republic"
+    },
     social: {
       twitter: "",
       github: "ekalinichev",
@@ -176,7 +194,10 @@ export const wombats: Wombat[] = [
     workPlaces: ["SmarTech IT", "Diehl Controls"],
     description: "",
     photoUrl: "/about/dmitriy.jpg",
-    basedIn: "PL",
+    basedIn: {
+      code: "PL",
+      fullName: "Poland"
+    },
     social: {
       twitter: "",
       github: "dmitryakovlev",
@@ -189,30 +210,40 @@ export const wombats: Wombat[] = [
 export const techStack = [
   {
     id: 0,
-    title: "We married JavaScript",
+    title: "We speak JavaScript",
     description:
-      "Despite the fact that we are married to JavaScript, we really love her cousin TypeScript.",
+      "Even though we all speak JavaScript, we cannot resist the TypeScript accent. It just sounds so sexy.",
     logoSrc: "/icons/typescript.svg"
   },
   {
     id: 1,
-    title: "We tamed Reactjs",
+    title: "We tamed React.js",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "We adore the NextJS framework in conjunction with Apollo Client and Styled-Components/Tailwind.",
     logoSrc: "/icons/react.svg"
   },
   {
     id: 2,
-    title: "We DevOps with the speed of light",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Backend",
+    description: "NodeJS, Express, GraphQL",
     logoSrc: "/icons/nodejs.svg"
   },
   {
     id: 3,
-    title: "We DevOps with the speed of light",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Mobile apps",
+    description: "React Native",
+    logoSrc: "/icons/nodejs.svg"
+  },
+  {
+    id: 3,
+    title: "Chatbots",
+    description: "Telegram, Facebook Messenger, Slack",
+    logoSrc: "/icons/nodejs.svg"
+  },
+  {
+    id: 3,
+    title: "DevOps",
+    description: "AWS, Now.sh, GitHub Actions, Travis",
     logoSrc: "/icons/aws.svg"
   }
 ];
