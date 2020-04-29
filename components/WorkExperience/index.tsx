@@ -10,7 +10,7 @@ const WorkPlaceComponent: FC<{ workPlace: WorkPlace }> = ({ workPlace }) => (
 );
 
 const WorkExperience = () => (
-  <section className="py-10 sm:py-12 md:py-16 lg:py-20">
+  <section className="pt-20 pb-10 sm:pt-24 sm:pb-12 md:pt-32 md:pb-16 lg:pt-40 lg:pb-20">
     <div className="container mx-auto px-6 md:px-0">
       <Title
         subtitle="We've built a lot of stuff"

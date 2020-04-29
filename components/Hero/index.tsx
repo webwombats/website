@@ -1,5 +1,3 @@
-import TechStack from "./TechStack";
-
 import { wombats } from "@data";
 
 const Hero = () => (
@@ -8,7 +6,7 @@ const Hero = () => (
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center text-center items-center">
           <div className="w-full w-full lg:w-8/12 justify-center items-start text-center">
-            <div className="pb-12 md:pb-16 mx-auto lg:mx-0">
+            <div className="pb-12 md:pb-40 mx-auto lg:mx-0">
               <p className="uppercase tracking-widest font-bold text-3xl md:text-4xl">
                 WEB WOMBATS
               </p>
@@ -27,12 +25,11 @@ const Hero = () => (
               and applications for startups.
             </p>
 
-            {/* <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+            <button className="mx-auto lg:mx-0 hover:opacity-75 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
               Lorem ipsum
-            </button> */}
+            </button>
           </div>
         </div>
-        <TechStack />
       </div>
     </section>
   </>

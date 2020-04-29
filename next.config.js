@@ -1,5 +1,5 @@
 module.exports = {
   experimental: {
-    jsconfigPaths: true
+    reactRefresh: true
   }
 };

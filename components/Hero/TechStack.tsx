@@ -1,5 +1,7 @@
 import { FC } from "react";
 
+import Title from "@components/title";
+
 import { techStack } from "@data";
 
 const TechStackItem: FC<{
@@ -28,11 +30,22 @@ const TechStackItem: FC<{
 );
 
 const TechStack = () => (
-  <ul className="flex flex-col md:flex-row flex-wrap md:justify-center">
-    {techStack.map(item => (
-      <TechStackItem {...item} key={item.id} />
-    ))}
-  </ul>
+  <section className="py-10 sm:py-12 md:py-16 lg:py-20">
+    <div className="container mx-auto px-6 md:px-0">
+      <Title
+        subtitle="What we do"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem vero ea magni asperiores, officiis quis cum odio in sit dicta qui voluptatibus placeat nulla? Quae quo quasi labore in."
+      >
+        JavaScript is our stack!
+      </Title>
+
+      <ul className="flex flex-col md:flex-row flex-wrap md:justify-center">
+        {techStack.map(item => (
+          <TechStackItem {...item} key={item.id} />
+        ))}
+      </ul>
+    </div>
+  </section>
 );
 
 export default TechStack;

@@ -6,6 +6,7 @@ import Hero from "@components/Hero";
 import WorkExperience from "@components/WorkExperience";
 import Team from "@components/Team";
 import Footer from "@components/Layout/Footer";
+import TechStack from "@components/Hero/TechStack";
 
 import { wombats } from "@data";
 
@@ -21,8 +22,8 @@ const IndexPage: NextPage = () => (
     <div className="leading-normal tracking-normal bg-background-color text-white">
       <Hero />
       <WorkExperience />
+      <TechStack />
       <Team />
-
       <Footer />
     </div>
   </PageContainer>

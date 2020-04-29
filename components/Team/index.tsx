@@ -6,7 +6,10 @@ import Title from "@components/title";
 
 import { wombats, Wombat } from "@data";
 
-const DialogContent: FC<{ wombat: Wombat; close: () => void }> = ({
+const DialogContent: FC<{
+  wombat: Wombat;
+  close: () => void;
+}> = ({
   wombat: {
     fullName,
     title,
@@ -137,7 +140,8 @@ const WombatProfile: FC<Wombat> = wombat => {
       <img
         alt={wombat.fullName}
         src={wombat.photoUrl || ""}
-        className="shadow-lg rounded-full max-w-3xs sm:max-w-2xs mx-auto"
+        className="shadow-lg rounded-full max-w-3xs sm:max-w-2xs mx-auto cursor-pointer"
+        onClick={open}
       />
       <div className="pt-3 text-center">
         <h5 className="text-2xl font-bold leading-tight tracking-tight">
